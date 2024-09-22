@@ -1,6 +1,6 @@
 // src/util/teams.js
 export const initialTeams = [
-  { name: 'Maze-Craze', time: 0 },
+  { name: 'Maze-Craze', time: 5:00 },
   { name: 'Labyrinth navigators', time: 0 },
   { name: 'Tech Titans', time: 0 },
   { name : 'Nadan Darindey',time:0},
