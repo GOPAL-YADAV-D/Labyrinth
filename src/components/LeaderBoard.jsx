@@ -4,7 +4,8 @@ import { initialTeams } from '../util/teams'; // Adjust the path as necessary
 const Leaderboard = () => {
   const [teams] = useState(initialTeams);
 
-  const sortedTeams = teams.sort((a, b) => b.score - a.score);
+  // Sorting the teams in ascending order by 'time' and then reversing the array
+  const sortedTeams = teams.sort((a, b) => a.time - b.time).reverse();
 
   return (
     <div className='Leaderboard'>
@@ -13,7 +14,7 @@ const Leaderboard = () => {
           <tr>
             <th>Rank</th>
             <th>Team Name</th>
-            <th>Score</th>
+            <th>Time</th>
           </tr>
         </thead>
         <tbody>
@@ -21,7 +22,7 @@ const Leaderboard = () => {
             <tr key={index}>
               <td>{index + 1}</td>
               <td>{team.name}</td>
-              <td>{team.score}</td>
+              <td>{team.time}</td>
             </tr>
           ))}
         </tbody>
