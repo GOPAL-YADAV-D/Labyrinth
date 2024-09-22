@@ -1,17 +1,17 @@
 export const initialTeams = [
-  { name: 'Maze-Craze', time: 161572 }, // 1 hour in milliseconds 1.
-  { name: 'Labyrinth navigators', time: 137035 }, // 1.5 hours in milliseconds
-  { name: 'Tech Titans', time: 250000 }, // 2 hours in milliseconds
-  { name: 'Nadan Darindey', time: 161838 }, // 1.25 hours in milliseconds
-  { name: 'Maze Breaker', time: 243000}, // 50 minutes in milliseconds
-  { name: 'Gear Grinders', time: 71140  }, // 1.67 hours in milliseconds
-  { name: 'Creepers', time: 151582 }, 
-  { name: 'Skibdi Sigma', time: 144044 },
-  { name: 'Dora The Explorer', time: 135590 },
-  { name: 'Soloman', time: 109252 },
-  { name: 'tism', time: 92243 },
-  { name: 'Rockers', time: 158680   },
-  { name: 'A Team', time:  139017  },
+  { name: 'Maze-Craze', time: 210082 }, //done
+  { name: 'Labyrinth navigators', time: 193035 }, //done
+  { name: 'Tech Titans', time: 250000 }, //done
+  { name: 'Nadan Darindey', time: 238068 }, //done
+  { name: 'Maze Breaker', time: 243069}, //done
+  { name: 'Gear Grinders', time: 85000  }, //done
+  { name: 'Creepers', time: 207022 }, //done 
+  { name: 'Skibdi Sigma', time: 192044 }, //done
+  { name: 'Dora The Explorer', time: 189050 }, //done
+  { name: 'Soloman', time: 127072 }, //done
+  { name: 'tism', time: 116003 }, //done
+  { name: 'Rockers', time: 158680   }, //done
+  { name: 'A Team', time:  139017  }, //done
 
 
 
