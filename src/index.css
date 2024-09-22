@@ -11,8 +11,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* background:   linear-gradient(45deg,#afaf9d , #050507); */
   /* background-color:rgb(118, 97, 97); */
-  background-color: radial-gradient(55deg,rgb(49, 44, 44));
-  color: #322c2c ;
+  background-color: #662681;
+  color: #ffffff ;
   min-height: 100vh;    
 }
   
@@ -55,15 +55,15 @@ th, td {
 }
 
 thead {
-  background-color: #645858;
+  background-color: #8f8888;
 }
 
 tbody tr:nth-child(even) {
-  background-color: #CFCCD6;
+  background-color: transparent;
 }
 
 
 th {
-  background-color: #e6f514f9;
+  background-color: #daa7f8f9;
   color: white;
 }
