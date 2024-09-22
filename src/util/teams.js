@@ -11,6 +11,8 @@ export const initialTeams = [
   { name: 'Soloman', time: 109252 },
   { name: 'tism', time: 92243 },
   { name: 'Rockers', time: 104068   },
+  { name: 'A Team', time:  139017  },
+
 
 
 
