@@ -5,11 +5,12 @@ export const initialTeams = [
   { name: 'Nadan Darindey', time: 161838 }, // 1.25 hours in milliseconds
   { name: 'Maze Breaker', time: 243630 }, // 50 minutes in milliseconds
   { name: 'Gear Grinders', time: 71140  }, // 1.67 hours in milliseconds
-  // { name: 'Creepers', time: 98068 }, 
+  { name: 'Creepers', time: 151582 }, 
   { name: 'Skibdi Sigma', time: 144044 },
-  // { name: 'Dora The Explorer', time: 98068 },
+  { name: 'Dora The Explorer', time: 135590 },
   { name: 'Soloman', time: 109252 },
-  // { name: 'tism', time: 98068 },
+  { name: 'tism', time: 92243 },
+  { name: 'Rockers', time: 104068   },
 
 
 
