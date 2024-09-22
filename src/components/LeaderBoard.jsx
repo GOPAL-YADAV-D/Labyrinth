@@ -15,11 +15,11 @@ const Leaderboard = () => {
   const formatTime = (milliseconds) => {
     if (isNaN(milliseconds)) return 'Invalid time';
     const totalSeconds = Math.floor(milliseconds / 1000);
-    const minutes = Math.floor(totalSeconds / 60);
+    const hours = Math.floor(totalSeconds / 3600);
+    const minutes = Math.floor((totalSeconds % 3600) / 60);
     const seconds = totalSeconds % 60;
-    const remainingMilliseconds = milliseconds % 1000;
 
-    return ${minutes}m ${seconds}s ${remainingMilliseconds}ms;
+    return `${hours}m ${minutes}s ${seconds}ms`;
   };
 
   return (
@@ -46,4 +46,4 @@ const Leaderboard = () => {
   );
 };
 
-export default Leaderboard;
+export default Leaderboard;
