@@ -8,18 +8,18 @@ const Leaderboard = () => {
     console.log('Teams:', teams);
   }, [teams]);
 
-  // Sorting the teams in ascending order by 'time' and then reversing the array
-  const sortedTeams = teams.sort((a, b) => a.time - b.time).reverse();
+  // Create a copy of the teams array and sort it in ascending order by 'time' and then reverse the array
+  const sortedTeams = [...teams].sort((a, b) => a.time - b.time);
 
   // Function to format time duration
   const formatTime = (milliseconds) => {
     if (isNaN(milliseconds)) return 'Invalid time';
     const totalSeconds = Math.floor(milliseconds / 1000);
-    const hours = Math.floor(totalSeconds / 3600);
-    const minutes = Math.floor((totalSeconds % 3600) / 60);
+    const minutes = Math.floor(totalSeconds / 60);
     const seconds = totalSeconds % 60;
+    const remainingMilliseconds = milliseconds % 1000;
 
-    return `${hours}m ${minutes}s ${seconds}ms`;
+    return `${minutes}m ${seconds}s ${remainingMilliseconds}ms`;
   };
 
   return (
@@ -46,4 +46,4 @@ const Leaderboard = () => {
   );
 };
 
-export default Leaderboard;
+export default Leaderboard;
