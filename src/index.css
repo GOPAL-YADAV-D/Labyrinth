@@ -9,11 +9,13 @@ body {
   font-family: 'Quicksand', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background:   linear-gradient(45deg,#6A0DAD , #e1dfe9);
+  /* background:   linear-gradient(45deg,#afaf9d , #050507); */
+  /* background-color:rgb(118, 97, 97); */
+  background-color: radial-gradient(55deg,rgb(49, 44, 44));
   color: #322c2c ;
   min-height: 100vh;    
 }
-
+  
 #header {
   text-align: center;
   margin: 3rem auto;
@@ -53,7 +55,7 @@ th, td {
 }
 
 thead {
-  background-color: #f2f2f2;
+  background-color: #645858;
 }
 
 tbody tr:nth-child(even) {
@@ -62,6 +64,6 @@ tbody tr:nth-child(even) {
 
 
 th {
-  background-color: #331861f9;
+  background-color: #e6f514f9;
   color: white;
 }
